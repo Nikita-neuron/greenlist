@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Super Display';
+  src: url('../fonts/GTtrial/GT-Super-Text-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+.header {
+  position: absolute;
+  width: 1296px;
+  top: 32px;
+  left: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  margin-right: 9px;
+}
+.menu-link {
+  margin-left: 32px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.main-page {
+  background-color: #023A15;
+  width: 100%;
+  height: 872px;
+}
+.main-page-content {
+  width: 1296px;
+  padding-top: 72px;
+  margin: auto;
+  display: flex;
+}
+.main-page-header {
+  margin-top: 75px;
+  font-family: "GT Super Display";
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+.header-text-green {
+  font-size: 109px;
+}
+.header-text-revolution {
+  font-size: 110px;
+}
+.header-text-a__team {
+  font-size: 107px;
+}
+.header-text-team {
+  font-size: 106px;
+  color: #F09C96;
+}
+.header-text-effort {
+  font-size: 107px;
+}
+.main-page-header-footer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.page-connect {
+  width: 185px;
+  height: 52px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.page-connect-text {
+  margin-left: 8px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #023A15;
+}
+.page-clarif {
+  margin-top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+.main-page-content {
+  margin-left: 75px;
+}
+.main-page-posts {
+  position: absolute;
+}
+.woman-coffee-post {
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  z-index: 1;
+}
+.coffee-post {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+.man-salad-post {
+  position: absolute;
+  top: 320px;
+  left: 220px;
+  z-index: 1;
+}
+.salad-post {
+  position: absolute;
+  top: 340px;
+  left: 250px;
+}
+.challenge-page {
+  height: 965px;
+  position: relative;
+  margin-top: 128px;
+  padding: 0 72px;
+}
+.challenge-page-header {
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 66px;
+  line-height: 84px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.challenge-header-team {
+  font-size: 64px;
+}
+.challenge-header-choices {
+  font-size: 63px;
+}
+.challenge-header-work {
+  font-size: 68px;
+}
+.challenge-page-text {
+  width: 460px;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.woman-drink {
+  position: absolute;
+  top: 217px;
+  right: 146px;
+}
+.create-page {
+  height: 970px;
+  padding: 0 72px;
+  position: relative;
+  background-color: #FFE6E2;
+}
+.create-page-header {
+  padding-top: 180px;
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 59px;
+  line-height: 77px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #000000;
+}
+.create-page-header-world {
+  font-size: 61px;
+}
+.create-page-text {
+  width: 578px;
+  margin: auto;
+  margin-top: 41px;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.man-bicycle {
+  position: absolute;
+  top: -307px;
+}
+.company-posts {
+  position: absolute;
+  margin: auto;
+  bottom: -128px;
+  left: 24%;
+  filter: drop-shadow(0px 13px 35px rgba(0, 0, 0, 0.1));
+}
+.educate-page {
+  padding: 250px 72px 0 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.educate-page-left-content {
+  width: 450px;
+}
+.educate-page-header {
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 53px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.educate-page-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.celebrate-page {
+  height: 407px;
+  padding: 0 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.celebrate-page-right-content {
+  width: 450px;
+}
+.celebrate-page-header {
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 53px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.celebrate-page-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.drive-page {
+  height: 407px;
+  padding: 0 72px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.drive-page-left-content {
+  width: 400px;
+}
+.drive-page-header {
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.drive-page-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.sign-up-page {
+  margin-top: 128px;
+  height: 590px;
+  background-color: #023A15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up-page-header {
+  font-family: "GT Super Display";
+  font-weight: 900;
+  font-size: 106px;
+  line-height: 110px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+.sign-up-page-header-sign {
+  height: 160px;
+}
+.sign-up-page-header-today {
+  font-size: 107px;
+}
+.header-today-greenlist {
+  font-size: 110px;
+  color: #F09C96;
+}
+.sign-up-page-footer {
+  margin-top: 41px;
+}
+.sign-up-connect {
+  margin: auto;
+}
+.sign-up-clarif {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+.footer {
+  height: 88px;
+  background-color: #023A15;
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
